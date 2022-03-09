@@ -1,0 +1,20 @@
+.idea/
+.vscode/
+.DS_Store
+
+# Editor temp files
+*~
+\#*#
+
+# skip dirs
+**/output
+**/bin
+**/tmp
+
+
+# skip .out files (coverage tests)
+*.out
+
+
+# ignore json reports generate locally in the testdata reports
+**test_*.json
